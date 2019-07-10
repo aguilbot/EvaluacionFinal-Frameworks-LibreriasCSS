@@ -1,0 +1,68 @@
+/* CSS Document */
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.fondo-color{
+	margin-top: auto;
+	height: 300px;
+}
+
+/*Estilo aplicado al color de los enlaces*/
+
+.link{
+	color: white;
+}
+
+.logo{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.slogan{
+	margin-top: 80px;
+	
+	
+}
+
+.social-media{
+	width: 110%;
+	width: 100%;
+}
+
+.foto1{
+	width: 200px !important;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+p{
+	text-align: justify;
+}
+
+.chip{
+	margin-top: 20px;
+}
+
+.card-title{
+	text-shadow: 2px 2px 2px #02010a;
+}
+
+.card-panel{
+	margin: 10px;
+}
+
+.panel2{
+	
+}
+.autor{
+	width: 200px;
+	margin-top: 50px;
+}

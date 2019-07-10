@@ -1,0 +1,93 @@
+*{
+	box-sizing: border-box;
+}
+/*Estilos Aplicados al Header*/
+header{
+	background-color: #9d001f;
+}
+
+.social:hover{
+	opacity: 0.5;
+}
+
+.social-media{
+	padding-bottom: 10px;
+}
+
+/*Estilos aplicados al NAV*/
+.navegador{
+	background-color: #006e9d;
+}
+
+.active{
+	background-color:  #0092d0;
+}
+
+li a{
+	color: white;
+}
+
+li:hover{
+	background-color: #0092d0;
+}
+
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+/*Estilos aplicados al contenido*/
+.fondo-contenido{
+	background-color: #ffebef;
+}
+
+.contenido-uno{
+	padding-top: 30px;
+}
+
+.contenido-dos{
+	padding-top: 30px;
+}
+
+.comentario-uno{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: lightgray;
+}
+
+.comentario-dos{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: lightgray;
+}
+
+
+/*Estilos aplicados para barra de busqueda input*/
+.busqueda{
+	padding-top: 20px;
+}
+
+/*Media Querie para pantallas pequeñas header*/
+
+@media only screen and ( max-width: 990px){
+	.logotipo-uno{
+		text-align: center;
+	}
+	
+	.social-media-dos{
+		text-align: center;
+	}
+}
+
+/*Media Querie para pantallas medianas y grandes header*/
+
+@media only screen and (min-width: 991px){
+.logotipo-uno{
+text-align: left;
+}
+
+.social-media-dos{
+text-align: right;
+padding-top: 50px;
+}
+}
